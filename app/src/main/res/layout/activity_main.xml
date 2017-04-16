@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.app.first.explicitintents.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Go Tto Activity B"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="doSomething"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Activity A"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp" />
+
+</RelativeLayout>
